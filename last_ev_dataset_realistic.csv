@@ -1,0 +1,201 @@
+Station_Name,City,Latitude,Longitude,Charging_Rate_kW,Charging_Duration_hours,Energy_Consumed_kWh,Queue,Feedback_Rating,Area,Queue_Length,Estimated_Wait_Time_Min,User_Rating,User_Feedback,Estimated_Charging_Time_hr,Location,Vehicles_Count,Slots,Connector_Type,Battery_%,Distance_km,Rating,Charging_Duration_min,Waiting_Time,Score,Start_Time,Date,Hour
+anna nagar ev point,chennai,12.93120373,80.11161672,,2.5,30.0,Medium,,ambattur,8,40,4.8,Good service,1.98,t nagar,29,5,type2,66,14.0,4,150.0,120.0,126.39,06:00,2025-04-09,10
+velachery ev hub,chennai,,80.2234963,40.0,,35.0,Low,3.5,anna nagar,6,30,4.5,Long waiting time,0.73,velachery,23,6,ccs,94,10.24,1,,,,19:00,2025-05-04,5
+omr charging point,chennai,12.97327237,80.25703519,50.0,2.5,35.0,,3.5,sholinganallur,5,25,4.6,Average experience,0.64,omr,39,5,type2,92,11.11,2,150.0,60.0,68.22,14:00,2025-02-06,14
+omr charging point,chennai,12.90265299,80.21265764,40.0,1.0,25.0,Low,4.0,porur,1,5,4.5,Average experience,0.75,adyar,35,4,ccs,11,11.66,4,60.0,15.0,16.24,10:45,2025-01-24,7
+anna nagar ev point,chennai,13.06663898,80.17821212,40.0,2.5,25.0,Medium,4.0,guindy,5,25,3.7,Well maintained,1.53,anna nagar,12,2,type2,67,12.94,4,150.0,300.0,309.11,07:00,2025-04-03,2
+anna nagar ev point,chennai,13.08789979,80.21958,60.0,1.0,,,,ambattur,4,20,3.1,Well maintained,0.91,t nagar,54,3,ccs,32,10.97,4,60.0,60.0,67.8,20:30,2025-02-15,17
+velachery ev hub,chennai,13.02140685,80.1592547,,1.0,20.0,High,3.5,perungudi,6,30,4.9,Good service,3.4,velachery,43,6,type2,23,11.61,3,60.0,10.0,13.18,06:00,2025-06-30,14
+t nagar ev station,,13.04137147,80.25425407,,1.5,25.0,Low,5.0,adyar,6,30,4.7,Well maintained,0.92,omr,76,4,ccs,44,8.5,1,90.0,157.5,159.87,18:15,2025-04-05,23
+t nagar ev station,chennai,12.96219646,80.24592124,50.0,2.0,20.0,High,,ambattur,4,20,3.6,Fast charging,0.51,adyar,29,3,type2,66,14.0,4,120.0,360.0,363.15,22:15,2025-04-09,10
+guindy ev station,chennai,12.95121366,,40.0,1.5,35.0,Low,4.5,sholinganallur,8,40,3.3,Long waiting time,2.25,anna nagar,57,2,ccs,22,13.28,1,90.0,585.0,589.33,10:45,2025-07-07,22
+t nagar ev station,chennai,12.94985845,80.25111023,60.0,,30.0,High,5.0,sholinganallur,1,5,3.1,Well maintained,0.88,t nagar,38,5,type2,26,11.45,1,,,,10:15,2025-04-26,9
+velachery ev hub,chennai,12.99130691,80.18330199,50.0,1.5,35.0,Low,3.5,porur,0,0,4.9,Long waiting time,2.34,velachery,51,6,ccs,18,12.13,5,90.0,120.0,127.02,23:30,2025-07-10,14
+t nagar ev station,chennai,13.07214612,,50.0,1.0,,Low,4.5,,6,30,4.6,Long waiting time,0.56,omr,70,2,type2,83,2.36,5,60.0,420.0,425.29,20:00,2025-06-09,11
+velachery ev hub,chennai,13.00375812,80.17272592,30.0,1.5,35.0,,4.0,anna nagar,5,25,4.5,Long waiting time,2.57,adyar,34,2,ccs,62,13.81,4,90.0,450.0,459.97,03:45,2025-06-10,11
+omr charging point,chennai,,80.2005358,,1.0,20.0,High,4.0,porur,8,40,3.9,Long waiting time,2.15,anna nagar,65,3,type2,48,6.99,3,60.0,60.0,65.92,07:00,2025-03-08,18
+adyar fast charge,chennai,13.03442711,80.14752751,,2.5,25.0,Medium,4.5,,3,15,4.0,Average experience,0.68,t nagar,86,4,ccs,48,2.78,2,150.0,412.5,413.87,23:00,2025-05-08,22
+t nagar ev station,chennai,13.07167176,80.14404821,40.0,2.0,30.0,,5.0,adyar,7,35,3.6,Well maintained,2.44,velachery,18,6,type2,46,13.79,2,120.0,60.0,61.78,02:30,2025-01-18,2
+t nagar ev station,chennai,12.92750419,80.1226947,40.0,2.0,35.0,,4.0,tambaram,10,50,3.5,Average experience,1.24,omr,13,4,ccs,99,12.52,5,120.0,210.0,213.45,21:15,2025-01-25,3
+t nagar ev station,chennai,13.09308387,80.27652727,30.0,1.0,30.0,High,4.5,guindy,0,0,4.9,Good service,1.91,adyar,71,6,type2,38,5.89,2,60.0,10.0,11.62,20:15,2025-02-23,19
+anna nagar ev point,chennai,12.91682799,80.27971084,60.0,2.0,20.0,High,3.5,velachery,5,25,3.8,Fast charging,2.29,anna nagar,80,7,ccs,19,4.99,1,120.0,51.42857142857143,61.13857142857143,01:00,2025-02-27,19
+adyar fast charge,chennai,12.98968483,80.13518505,60.0,1.0,,,5.0,porur,9,45,3.1,Good service,0.6,t nagar,51,5,type2,18,12.13,3,60.0,120.0,129.69,23:45,2025-03-08,14
+omr charging point,chennai,12.97354316,80.14879793,,2.0,30.0,High,4.0,thoraipakkam,5,25,4.8,Good service,2.76,velachery,67,3,ccs,81,1.72,3,120.0,320.0,326.03,11:15,2025-04-14,12
+adyar fast charge,chennai,12.9390486,80.15615447,50.0,1.0,20.0,,5.0,tambaram,2,10,3.7,Long waiting time,1.39,omr,70,4,type2,55,5.77,5,60.0,30.0,39.63,05:45,2025-06-23,19
+guindy ev station,chennai,12.90309132,80.18563683,,2.0,35.0,Low,5.0,velachery,4,20,4.0,Good service,2.5,adyar,13,7,ccs,38,13.14,2,120.0,137.14285714285714,138.58285714285714,01:15,2025-01-24,0
+adyar fast charge,chennai,12.93389855,80.28723095,40.0,2.0,25.0,,4.0,thoraipakkam,0,0,3.1,Fast charging,2.98,anna nagar,72,4,type2,10,1.64,4,120.0,330.0,333.11,20:45,2025-04-24,8
+omr charging point,chennai,12.92732427,80.210564,40.0,1.5,30.0,Medium,3.5,guindy,6,30,3.4,Well maintained,2.53,t nagar,79,5,ccs,58,5.98,3,90.0,180.0,185.06,00:30,2025-02-01,23
+adyar fast charge,,12.93885479,80.17935677,60.0,2.0,35.0,Medium,4.0,t nagar,9,45,3.5,Fast charging,1.59,velachery,76,5,type2,44,8.5,5,120.0,216.0,218.1,11:45,2025-06-24,23
+guindy ev station,chennai,13.0677867,80.15005027,40.0,2.0,35.0,Low,3.5,thoraipakkam,10,50,4.2,Fast charging,1.43,omr,80,7,ccs,10,9.92,5,120.0,102.85714285714286,108.62714285714286,21:30,2025-03-27,21
+adyar fast charge,chennai,13.06840462,80.18227078,50.0,2.5,,Medium,5.0,perungudi,9,45,4.2,Good service,3.3,adyar,59,7,type2,19,9.99,3,150.0,214.28571428571428,222.31571428571428,11:30,2025-05-31,14
+velachery ev hub,chennai,12.98779428,80.10507015,,1.0,35.0,Low,3.5,tambaram,9,45,4.2,Average experience,3.28,anna nagar,78,4,ccs,42,2.26,2,60.0,45.0,52.2,16:45,2025-07-13,11
+velachery ev hub,chennai,12.91877466,80.2869228,30.0,,,Medium,,thoraipakkam,5,25,4.6,Well maintained,2.08,t nagar,67,2,type2,80,8.04,1,,,,09:30,2025-05-07,20
+omr charging point,chennai,12.9028787,80.10920053,30.0,2.5,,,4.0,,0,0,3.1,Well maintained,0.82,velachery,50,7,ccs,16,13.56,5,150.0,235.7142857142857,241.9742857142857,15:00,2025-06-04,17
+velachery ev hub,chennai,12.98677033,80.22317002,,2.5,25.0,,4.0,t nagar,10,50,4.5,Long waiting time,2.38,omr,54,3,type2,82,2.18,2,150.0,600.0,607.02,14:30,2025-05-10,2
+velachery ev hub,chennai,13.03679275,80.28877832,40.0,1.0,35.0,,4.5,sholinganallur,1,5,3.7,Fast charging,1.28,adyar,76,4,ccs,15,1.35,3,60.0,120.0,123.33,14:15,2025-01-17,10
+anna nagar ev point,chennai,12.99165058,80.28829296,50.0,1.0,20.0,,4.0,sholinganallur,8,40,4.0,Good service,2.35,anna nagar,79,4,type2,58,5.98,1,60.0,15.0,18.92,18:45,2025-04-14,23
+omr charging point,,12.90364437,80.23660135,30.0,1.5,,Medium,4.0,,1,5,3.6,Fast charging,1.64,t nagar,35,7,ccs,11,11.66,3,90.0,141.42857142857142,143.14857142857142,11:00,2025-06-10,7
+velachery ev hub,chennai,13.03857807,80.28732963,60.0,1.0,,Low,3.5,thoraipakkam,8,40,4.7,Average experience,2.44,velachery,93,7,type2,24,1.2,3,60.0,94.28571428571428,95.9657142857143,22:45,2025-05-17,21
+anna nagar ev point,chennai,13.09810103,80.17440362,,2.5,20.0,High,,thoraipakkam,10,50,3.5,Average experience,2.28,omr,93,5,ccs,24,1.2,3,150.0,30.0,33.66,19:15,2025-02-12,21
+t nagar ev station,chennai,12.99931224,80.15952703,50.0,1.0,35.0,,,,8,40,4.0,Well maintained,2.22,adyar,87,6,type2,54,3.43,1,60.0,50.0,55.66,02:15,2025-06-25,19
+t nagar ev station,chennai,13.03535398,80.19860513,,,30.0,,3.5,thoraipakkam,7,35,3.9,Good service,0.51,anna nagar,93,2,ccs,24,1.2,1,,,,04:15,2025-02-08,21
+anna nagar ev point,chennai,13.05792363,80.19888406,40.0,,30.0,High,,ambattur,4,20,4.6,Fast charging,1.92,t nagar,67,2,type2,67,9.86,2,,,,18:30,2025-06-19,20
+omr charging point,chennai,13.06739277,80.26769615,,1.5,20.0,Medium,4.5,anna nagar,2,10,3.1,Long waiting time,1.74,velachery,36,3,ccs,48,5.12,2,90.0,300.0,307.27,06:30,2025-01-26,2
+velachery ev hub,chennai,13.01626108,80.27607199,30.0,1.0,,,5.0,nungambakkam,6,30,3.4,Long waiting time,3.11,omr,15,3,type2,98,13.56,2,60.0,260.0,264.19,20:45,2025-04-09,6
+guindy ev station,chennai,13.04101687,80.16605051,50.0,,,Medium,5.0,adyar,1,5,3.5,Long waiting time,3.47,adyar,53,5,ccs,91,2.42,4,,,,08:45,2025-02-19,7
+guindy ev station,chennai,13.02984206,80.21667375,30.0,2.5,20.0,Low,3.5,guindy,5,25,5.0,Good service,3.24,anna nagar,18,6,type2,46,13.79,1,150.0,250.0,255.72,06:00,2025-06-02,2
+guindy ev station,chennai,13.01120101,80.10868016,,2.0,35.0,Low,5.0,adyar,4,20,4.5,Fast charging,2.97,t nagar,67,5,ccs,67,9.86,5,120.0,24.0,28.05,17:00,2025-06-01,20
+omr charging point,,12.94336182,80.29916628,50.0,1.0,30.0,,4.0,ambattur,3,15,4.3,Well maintained,1.43,velachery,22,3,type2,74,10.1,2,60.0,120.0,121.25,03:45,2025-01-13,2
+guindy ev station,chennai,12.93762423,80.17067045,40.0,2.5,35.0,Low,3.5,guindy,6,30,4.6,Good service,0.79,omr,76,2,ccs,44,8.5,3,150.0,975.0,982.29,13:30,2025-03-01,23
+anna nagar ev point,chennai,12.96190552,80.23694623,,,30.0,Low,4.0,nungambakkam,1,5,3.1,Long waiting time,1.57,adyar,54,5,type2,98,4.32,1,,,,17:15,2025-05-15,11
+omr charging point,chennai,13.0865457,80.10904373,30.0,1.0,25.0,,3.5,ambattur,5,25,3.1,Well maintained,1.95,anna nagar,47,3,ccs,65,4.79,4,60.0,80.0,89.0,08:45,2025-02-26,11
+omr charging point,chennai,13.06842378,80.19373863,50.0,1.0,,,5.0,velachery,0,0,3.5,Good service,1.8,t nagar,79,7,type2,33,6.15,2,60.0,120.0,123.62,20:00,2025-02-05,21
+t nagar ev station,chennai,13.01702991,80.25141624,50.0,1.0,,Medium,3.5,anna nagar,9,45,4.0,Long waiting time,3.46,velachery,34,6,ccs,47,8.16,2,60.0,20.0,28.23,01:30,2025-06-22,4
+guindy ev station,chennai,13.07564413,80.10937929,40.0,1.5,25.0,Medium,4.5,nungambakkam,0,0,3.1,Well maintained,2.6,omr,67,5,type2,80,8.04,2,90.0,72.0,74.05,19:45,2025-01-20,20
+omr charging point,chennai,12.91768164,80.21799118,,,25.0,High,4.5,thoraipakkam,6,30,5.0,Long waiting time,3.06,adyar,67,3,ccs,33,3.26,3,,,,14:45,2025-03-06,13
+guindy ev station,chennai,13.02732886,80.11820042,40.0,2.5,20.0,Medium,3.5,velachery,10,50,4.7,Long waiting time,0.76,anna nagar,24,6,type2,89,10.41,3,150.0,325.0,332.82,06:30,2025-01-08,3
+anna nagar ev point,chennai,13.05929436,80.26841828,30.0,2.5,35.0,,,perungudi,5,25,4.2,Average experience,3.07,t nagar,95,5,ccs,10,4.35,2,150.0,210.0,216.9,11:45,2025-05-24,22
+velachery ev hub,chennai,13.01592999,80.20745268,50.0,2.5,35.0,,3.5,nungambakkam,8,40,3.3,Well maintained,1.67,velachery,80,7,type2,37,9.08,1,150.0,128.57142857142858,137.93142857142857,07:30,2025-05-22,23
+omr charging point,chennai,13.02038708,80.26435813,40.0,2.5,25.0,Low,,,0,0,3.9,Average experience,0.79,omr,71,7,ccs,38,5.89,1,150.0,107.14285714285714,114.05285714285714,14:15,2025-04-25,19
+guindy ev station,chennai,12.97285397,80.23807897,30.0,1.5,20.0,High,3.5,guindy,6,30,4.0,Well maintained,0.87,adyar,13,7,type2,38,13.14,3,90.0,141.42857142857142,149.0885714285714,02:30,2025-05-23,0
+guindy ev station,chennai,12.91221559,80.26124026,30.0,2.0,,,4.0,velachery,6,30,4.7,Well maintained,1.88,anna nagar,57,2,ccs,21,14.62,3,120.0,540.0,548.69,13:30,2025-04-02,20
+anna nagar ev point,chennai,12.90733664,80.24266992,50.0,2.5,,Medium,4.0,anna nagar,1,5,3.1,Long waiting time,0.61,t nagar,54,5,type2,61,3.73,2,150.0,390.0,392.12,16:30,2025-04-08,8
+guindy ev station,chennai,12.97545683,,30.0,1.0,25.0,Medium,5.0,thoraipakkam,5,25,4.5,Fast charging,1.64,velachery,66,5,ccs,44,5.44,4,60.0,36.0,37.77,03:45,2025-03-07,9
+t nagar ev station,chennai,13.05783425,80.11738406,40.0,1.0,35.0,High,4.0,thoraipakkam,8,40,3.7,Average experience,0.61,omr,79,3,type2,58,5.98,5,60.0,240.0,242.16,17:45,2025-02-01,23
+t nagar ev station,chennai,12.94887063,80.1660697,30.0,1.0,,Medium,,ambattur,5,25,3.2,Well maintained,2.68,adyar,41,4,ccs,21,7.63,2,60.0,105.0,107.0,07:30,2025-07-10,1
+guindy ev station,chennai,12.91757752,80.1111307,30.0,2.0,30.0,High,,thoraipakkam,2,10,3.4,Well maintained,2.57,anna nagar,25,7,type2,53,12.7,5,120.0,120.0,129.43,03:45,2025-03-27,6
+anna nagar ev point,chennai,13.08347912,,30.0,2.0,20.0,Medium,4.5,porur,6,30,3.0,Long waiting time,3.49,t nagar,47,5,ccs,67,13.72,5,120.0,216.0,217.14,01:00,2025-02-20,18
+velachery ev hub,chennai,12.96473585,80.20152208,30.0,2.5,20.0,Medium,,adyar,9,45,3.6,Good service,1.6,velachery,87,6,type2,54,3.43,5,150.0,175.0,182.97,05:00,2025-06-02,19
+guindy ev station,chennai,12.91036471,80.12688294,40.0,2.5,25.0,Low,4.0,t nagar,3,15,3.5,Good service,2.58,omr,66,2,ccs,38,6.41,1,150.0,150.0,157.0,21:45,2025-07-05,18
+anna nagar ev point,chennai,13.01912775,80.18236818,30.0,,35.0,,4.0,,6,30,4.0,Fast charging,0.78,adyar,56,2,type2,68,6.15,3,,,,09:45,2025-03-04,13
+guindy ev station,chennai,12.97584572,80.24431931,60.0,,30.0,Low,,velachery,10,50,3.1,Long waiting time,3.29,anna nagar,44,4,ccs,71,8.23,2,,,,03:30,2025-07-09,12
+guindy ev station,chennai,12.94713835,80.28157323,30.0,,25.0,Low,4.0,porur,2,10,3.6,Average experience,2.5,t nagar,28,2,type2,77,13.61,2,,,,21:15,2025-05-05,8
+guindy ev station,chennai,12.98774894,80.17107249,40.0,,30.0,High,4.5,anna nagar,8,40,3.7,Well maintained,0.5,velachery,65,5,ccs,48,6.99,2,,,,17:45,2025-05-30,18
+guindy ev station,chennai,12.92785441,80.22401455,60.0,2.0,35.0,Low,3.5,,3,15,4.5,Long waiting time,1.43,omr,34,5,type2,47,8.16,5,120.0,192.0,201.53,11:00,2025-02-27,4
+t nagar ev station,chennai,12.94090892,80.1987963,40.0,1.0,,High,5.0,tambaram,2,10,3.2,Fast charging,0.9,adyar,80,5,ccs,19,4.99,2,60.0,48.0,49.38,01:30,2025-02-27,19
+adyar fast charge,chennai,12.92998349,80.24445051,40.0,2.0,30.0,High,5.0,tambaram,4,20,4.6,Long waiting time,2.25,anna nagar,50,4,type2,17,12.18,5,120.0,210.0,214.83,09:45,2025-03-27,13
+anna nagar ev point,chennai,13.09181496,80.1454702,40.0,2.0,35.0,Medium,,,6,30,4.6,Well maintained,0.69,t nagar,40,4,ccs,45,11.16,1,120.0,270.0,275.16,03:00,2025-02-18,14
+guindy ev station,chennai,13.01859258,80.2837501,,,25.0,Low,5.0,anna nagar,8,40,3.0,Well maintained,3.03,velachery,26,2,type2,51,14.49,5,,,,13:00,2025-06-29,7
+velachery ev hub,,13.06808793,80.12456216,,,25.0,Medium,5.0,tambaram,1,5,4.8,Average experience,2.09,omr,44,5,ccs,43,9.53,1,,,,15:15,2025-06-19,10
+guindy ev station,chennai,12.94547912,80.17586114,,1.0,25.0,,3.5,velachery,0,0,4.6,Fast charging,2.36,adyar,40,4,type2,45,11.16,5,60.0,165.0,173.29,14:30,2025-03-11,14
+adyar fast charge,chennai,13.07270363,80.19314002,50.0,1.5,30.0,Low,4.5,perungudi,8,40,3.9,Good service,2.72,anna nagar,85,5,ccs,40,2.63,5,90.0,216.0,217.96,07:30,2025-01-15,23
+omr charging point,chennai,12.99967355,80.28296918,30.0,,30.0,Medium,4.0,thoraipakkam,2,10,3.7,Fast charging,1.22,t nagar,74,2,type2,70,5.01,1,,,,13:15,2025-02-23,18
+anna nagar ev point,chennai,12.9917978,80.2721264,,1.0,20.0,,,velachery,7,35,3.0,Good service,2.37,velachery,49,7,ccs,17,12.44,4,60.0,34.285714285714285,37.55571428571429,22:15,2025-07-07,8
+guindy ev station,chennai,12.94102793,80.10730993,50.0,1.5,20.0,Medium,4.5,perungudi,0,0,3.2,Well maintained,2.95,omr,28,2,type2,12,11.17,5,90.0,495.0,502.07,07:30,2025-04-11,1
+velachery ev hub,chennai,13.01192807,80.13638563,,2.0,25.0,Medium,4.5,anna nagar,9,45,3.8,Long waiting time,0.73,adyar,93,2,ccs,24,1.2,4,120.0,840.0,847.6,20:30,2025-01-08,21
+guindy ev station,chennai,13.06795777,80.1815969,30.0,2.0,30.0,High,,porur,4,20,3.2,Long waiting time,2.48,anna nagar,24,5,type2,89,10.41,5,120.0,72.0,81.78,15:45,2025-02-22,3
+guindy ev station,chennai,13.01134432,80.26106299,50.0,2.5,35.0,Low,,ambattur,1,5,4.1,Good service,0.56,t nagar,37,5,ccs,78,1.34,1,150.0,420.0,422.5,12:45,2025-03-01,0
+guindy ev station,chennai,,80.14157725,50.0,,30.0,,,thoraipakkam,1,5,3.2,Fast charging,1.3,velachery,82,7,type2,43,2.3,2,,,,17:15,2025-04-18,13
+anna nagar ev point,chennai,12.96717317,80.17261184,60.0,2.5,,Low,3.5,nungambakkam,3,15,3.3,Average experience,1.19,omr,35,6,ccs,11,11.66,4,150.0,25.0,32.82,14:45,2025-01-05,7
+velachery ev hub,chennai,13.05595175,80.21315532,50.0,1.0,25.0,High,3.5,porur,9,45,4.4,Fast charging,2.7,adyar,45,5,type2,83,3.42,3,60.0,132.0,141.4,20:00,2025-04-13,2
+guindy ev station,chennai,12.94360462,80.18434079,40.0,1.5,,Low,4.0,,1,5,3.3,Long waiting time,1.5,anna nagar,93,6,ccs,24,1.2,2,90.0,150.0,158.81,23:45,2025-07-15,21
+,chennai,13.0153033,80.2108356,30.0,1.5,35.0,High,,velachery,8,40,4.9,Well maintained,3.3,t nagar,22,2,type2,44,13.95,2,90.0,315.0,320.56,12:45,2025-01-06,4
+velachery ev hub,chennai,13.04643692,80.22661961,,1.5,,Low,4.0,guindy,0,0,3.2,Fast charging,1.75,velachery,83,7,ccs,28,4.71,2,90.0,115.71428571428572,118.2042857142857,08:00,2025-04-19,22
+adyar fast charge,chennai,,80.24760672,50.0,,35.0,High,4.0,porur,1,5,3.7,Good service,2.31,omr,66,4,type2,44,5.44,5,,,,14:15,2025-04-26,9
+adyar fast charge,chennai,13.04380918,80.21328093,40.0,,20.0,Medium,5.0,perungudi,2,10,3.3,Well maintained,1.24,adyar,71,7,ccs,38,5.89,2,,,,12:00,2025-04-04,19
+anna nagar ev point,chennai,13.09104726,80.22466651,40.0,,20.0,Low,3.5,nungambakkam,7,35,3.5,Fast charging,3.09,anna nagar,33,6,type2,70,5.49,3,,,,00:45,2025-02-16,1
+t nagar ev station,chennai,12.94928041,80.25988318,60.0,2.0,25.0,,4.5,thoraipakkam,6,30,4.8,Fast charging,2.8,t nagar,34,4,ccs,54,11.78,4,120.0,120.0,123.0,06:15,2025-04-09,12
+adyar fast charge,chennai,13.09004747,80.13702659,50.0,,20.0,High,,thoraipakkam,9,45,3.5,Fast charging,0.98,velachery,79,4,type2,58,5.98,3,,,,08:45,2025-02-24,23
+guindy ev station,chennai,13.02933298,80.11031916,40.0,1.5,20.0,High,4.0,thoraipakkam,9,45,3.8,Well maintained,1.01,omr,40,6,ccs,51,10.76,3,90.0,60.0,67.57,23:00,2025-06-17,4
+adyar fast charge,chennai,13.04620473,80.1230564,50.0,,25.0,High,5.0,nungambakkam,4,20,4.8,Average experience,2.63,adyar,47,4,type2,96,13.28,1,,,,00:00,2025-02-21,18
+omr charging point,chennai,,80.14600177,60.0,,25.0,High,,t nagar,6,30,4.2,Fast charging,3.46,anna nagar,55,2,ccs,29,2.19,1,,,,11:45,2025-05-24,3
+omr charging point,chennai,12.96305807,80.25814463,30.0,,25.0,Low,,nungambakkam,5,25,3.2,Good service,3.22,t nagar,35,6,type2,11,11.66,4,,,,07:30,2025-01-13,7
+velachery ev hub,chennai,13.09806826,,,,25.0,,4.5,ambattur,3,15,4.2,Well maintained,2.46,velachery,42,2,ccs,35,8.77,4,,,,23:30,2025-04-24,6
+omr charging point,chennai,12.98038618,80.22550109,60.0,1.0,25.0,Medium,3.5,nungambakkam,5,25,4.0,Long waiting time,3.33,omr,23,5,type2,33,10.29,4,60.0,132.0,141.26,10:00,2025-05-04,3
+anna nagar ev point,chennai,12.97092443,80.15926162,,1.0,20.0,Low,3.5,porur,9,45,3.8,Well maintained,1.51,adyar,67,4,ccs,80,8.04,1,60.0,210.0,215.76,18:00,2025-04-16,20
+t nagar ev station,chennai,13.05959786,80.21771085,50.0,,25.0,Low,5.0,,7,35,4.6,Fast charging,3.27,anna nagar,87,2,type2,22,4.14,2,,,,16:30,2025-06-07,21
+anna nagar ev point,chennai,13.02154736,80.14613396,40.0,1.0,25.0,Low,3.5,thoraipakkam,8,40,4.5,Long waiting time,2.92,t nagar,95,2,ccs,10,4.35,2,60.0,90.0,97.9,07:30,2025-05-27,22
+velachery ev hub,chennai,13.09382053,80.28555046,40.0,1.0,,High,4.0,porur,4,20,4.0,Good service,3.49,velachery,51,5,type2,18,12.13,1,60.0,48.0,50.24,02:45,2025-05-25,14
+omr charging point,chennai,13.06316662,80.14476352,30.0,1.0,35.0,Medium,,porur,5,25,4.4,Long waiting time,1.8,omr,26,7,ccs,14,12.34,2,60.0,17.142857142857142,23.472857142857144,02:45,2025-04-30,2
+velachery ev hub,chennai,12.99533537,,40.0,2.5,25.0,Low,3.5,sholinganallur,5,25,3.4,Fast charging,3.17,adyar,8,3,type2,95,10.83,2,150.0,500.0,501.79,00:30,2025-03-04,0
+adyar fast charge,chennai,12.90101643,80.10975672,40.0,,35.0,,,adyar,0,0,3.8,Well maintained,3.46,anna nagar,88,4,ccs,45,1.13,2,,,,04:45,2025-01-19,17
+anna nagar ev point,chennai,12.99611732,80.26493619,40.0,2.0,,Low,3.5,t nagar,8,40,4.2,Average experience,3.23,t nagar,56,7,type2,98,5.73,2,120.0,154.28571428571428,162.65571428571428,09:45,2025-04-02,13
+guindy ev station,chennai,12.93146813,80.16680178,,1.0,,Medium,5.0,,5,25,4.1,Long waiting time,2.79,velachery,56,2,ccs,68,6.15,3,60.0,420.0,427.0,06:15,2025-02-27,13
+omr charging point,chennai,13.07436871,,40.0,1.5,30.0,Low,4.0,adyar,0,0,4.7,Long waiting time,1.51,omr,8,3,type2,95,10.83,3,90.0,180.0,187.33,08:45,2025-07-02,0
+anna nagar ev point,chennai,12.93862657,80.16528672,30.0,1.0,25.0,,,adyar,1,5,3.4,Good service,1.06,adyar,25,4,ccs,86,14.66,3,60.0,105.0,106.76,06:00,2025-03-31,9
+omr charging point,chennai,,80.2680243,60.0,2.5,,Low,5.0,t nagar,1,5,4.0,Average experience,1.16,anna nagar,25,5,type2,86,14.66,4,150.0,150.0,155.44,08:45,2025-04-27,9
+anna nagar ev point,,13.04163442,80.21643409,30.0,1.5,30.0,Medium,4.0,sholinganallur,4,20,3.7,Good service,3.1,t nagar,75,6,ccs,52,3.44,3,90.0,135.0,143.92,07:45,2025-03-03,14
+guindy ev station,chennai,12.92601725,80.10491738,50.0,1.0,30.0,High,4.0,guindy,8,40,4.8,Good service,2.08,velachery,71,5,type2,49,11.37,5,60.0,60.0,69.25,11:30,2025-01-23,23
+velachery ev hub,chennai,12.92043872,80.20540482,,,30.0,,4.0,perungudi,9,45,4.9,Fast charging,1.37,omr,32,7,ccs,61,8.04,4,,,,01:00,2025-05-07,7
+guindy ev station,chennai,13.09264733,,,,,High,5.0,ambattur,7,35,4.3,Average experience,0.64,adyar,47,6,type2,96,13.28,3,,,,00:45,2025-05-17,18
+guindy ev station,chennai,12.96414855,80.2491674,50.0,1.0,20.0,,5.0,perungudi,3,15,3.6,Good service,0.61,anna nagar,63,6,ccs,76,10.49,2,60.0,20.0,27.52,15:45,2025-05-20,21
+velachery ev hub,chennai,12.9371051,80.25531937,50.0,1.5,35.0,High,4.5,nungambakkam,1,5,3.1,Average experience,1.16,t nagar,22,6,type2,74,10.1,1,90.0,165.0,168.19,22:15,2025-05-09,2
+adyar fast charge,,13.02333006,80.19630447,30.0,2.5,35.0,,3.5,thoraipakkam,7,35,3.1,Long waiting time,2.35,velachery,54,5,ccs,32,10.97,1,150.0,150.0,155.43,22:45,2025-02-27,17
+guindy ev station,chennai,12.96518509,80.18664935,,1.0,,Medium,4.0,ambattur,5,25,3.3,Fast charging,2.14,omr,58,4,type2,25,14.8,1,60.0,30.0,33.2,23:45,2025-05-02,23
+guindy ev station,chennai,13.05141185,80.28156373,50.0,2.0,20.0,Low,5.0,nungambakkam,10,50,4.7,Well maintained,1.32,adyar,28,4,ccs,12,11.17,1,120.0,210.0,216.25,04:15,2025-01-01,1
+t nagar ev station,,12.94206992,80.25516095,40.0,2.5,20.0,Medium,3.5,porur,2,10,4.6,Good service,2.11,anna nagar,75,5,type2,52,3.44,2,150.0,300.0,307.39,02:30,2025-02-03,14
+t nagar ev station,,12.97156027,80.29549328,40.0,1.5,25.0,High,4.0,thoraipakkam,9,45,4.9,Average experience,0.78,t nagar,82,5,ccs,43,2.3,5,90.0,108.0,117.2,11:45,2025-04-06,13
+velachery ev hub,chennai,13.04129515,,30.0,1.0,25.0,,4.0,,4,20,3.4,Long waiting time,1.81,velachery,50,4,type2,28,6.04,1,60.0,195.0,199.66,07:15,2025-05-06,4
+anna nagar ev point,chennai,12.91602297,80.20951848,40.0,1.5,30.0,High,3.5,t nagar,7,35,4.3,Good service,2.01,omr,30,5,ccs,58,9.49,5,90.0,72.0,74.28,21:00,2025-04-28,3
+anna nagar ev point,,12.94942065,80.27435671,40.0,2.0,35.0,Low,,ambattur,2,10,4.1,Long waiting time,2.13,adyar,97,6,type2,21,2.93,3,120.0,280.0,282.0,02:30,2025-02-17,22
+adyar fast charge,chennai,13.04384036,80.29926678,30.0,2.0,30.0,,4.0,ambattur,6,30,4.8,Fast charging,3.45,anna nagar,6,5,ccs,94,14.36,4,120.0,240.0,249.23,00:00,2025-03-30,0
+omr charging point,,,80.19252459,,1.5,,,5.0,porur,7,35,4.6,Average experience,1.09,t nagar,25,3,type2,53,12.7,1,90.0,240.0,242.79,02:00,2025-04-27,6
+adyar fast charge,chennai,12.90802184,80.21573508,60.0,1.5,,Medium,5.0,guindy,4,20,3.2,Good service,2.43,velachery,65,2,ccs,48,6.99,5,90.0,225.0,232.74,04:15,2025-05-09,18
+velachery ev hub,chennai,13.09842666,80.17183021,50.0,,25.0,,,adyar,3,15,3.6,Fast charging,2.13,omr,66,6,type2,38,6.41,1,,,,14:45,2025-01-16,18
+t nagar ev station,chennai,12.93593662,80.29427902,,,,Low,5.0,thoraipakkam,9,45,3.2,Average experience,1.48,adyar,85,2,ccs,63,1.57,4,,,,13:15,2025-07-08,19
+adyar fast charge,chennai,13.01859017,80.17821631,30.0,2.5,25.0,High,,porur,7,35,5.0,Average experience,3.03,anna nagar,69,4,type2,32,6.18,2,150.0,75.0,83.48,02:15,2025-07-11,7
+adyar fast charge,chennai,13.09396421,80.14721009,50.0,1.5,,Medium,5.0,tambaram,5,25,4.4,Average experience,1.7,t nagar,87,3,ccs,54,3.43,2,90.0,240.0,247.65,00:15,2025-07-10,19
+guindy ev station,chennai,13.08971667,80.17185015,60.0,1.0,30.0,Low,,sholinganallur,3,15,3.4,Long waiting time,2.27,velachery,18,2,type2,46,13.79,3,60.0,210.0,216.19,04:15,2025-03-10,2
+anna nagar ev point,chennai,13.01707087,80.14116824,,2.5,25.0,Medium,4.0,adyar,7,35,3.5,Well maintained,2.78,omr,65,3,ccs,32,5.21,2,150.0,100.0,103.22,22:30,2025-01-22,6
+t nagar ev station,chennai,,80.19043981,,2.0,,Low,3.5,t nagar,7,35,4.9,Good service,1.3,adyar,32,4,type2,61,8.04,5,120.0,420.0,428.19,13:45,2025-04-03,7
+,chennai,13.09302374,,40.0,1.0,25.0,Low,3.5,adyar,1,5,3.6,Good service,0.98,anna nagar,60,3,ccs,45,9.1,3,60.0,100.0,107.37,06:00,2025-07-14,14
+omr charging point,chennai,12.90599472,80.24093615,40.0,2.5,25.0,Low,3.5,guindy,4,20,4.0,Long waiting time,0.74,t nagar,29,4,type2,66,14.0,5,150.0,225.0,234.27,08:00,2025-03-17,10
+adyar fast charge,chennai,13.03852519,80.28892284,40.0,1.5,25.0,Low,4.0,adyar,3,15,4.4,Well maintained,2.08,velachery,52,2,ccs,21,9.27,5,90.0,630.0,631.38,14:45,2025-06-03,11
+,chennai,13.03530268,80.23177709,,,20.0,Medium,5.0,t nagar,4,20,4.9,Fast charging,1.46,omr,28,5,type2,26,12.14,2,,,,14:00,2025-05-24,4
+velachery ev hub,,12.98138159,80.2564771,,1.0,30.0,,4.0,guindy,8,40,3.3,Well maintained,2.83,adyar,35,7,ccs,11,11.66,1,60.0,111.42857142857144,113.54857142857144,09:45,2025-06-28,7
+adyar fast charge,chennai,13.08027513,80.16343914,,2.0,20.0,,3.5,perungudi,2,10,4.8,Long waiting time,1.6,anna nagar,80,6,type2,37,9.08,5,120.0,100.0,105.46,12:00,2025-03-27,23
+adyar fast charge,chennai,13.03909344,80.18973872,30.0,1.0,30.0,,4.0,ambattur,1,5,4.3,Well maintained,0.75,t nagar,45,6,ccs,90,4.61,5,60.0,140.0,149.89,18:15,2025-07-04,6
+omr charging point,chennai,12.99269881,80.27266673,40.0,2.5,,Low,4.0,ambattur,8,40,3.3,Average experience,0.62,velachery,40,5,type2,51,10.76,5,150.0,240.0,243.88,06:00,2025-01-29,4
+t nagar ev station,chennai,13.00672051,80.25297665,40.0,2.5,30.0,High,,sholinganallur,0,0,3.1,Well maintained,0.65,omr,23,4,ccs,89,11.0,2,150.0,375.0,376.36,16:45,2025-03-10,6
+adyar fast charge,,13.07960611,80.28540691,60.0,,,Medium,4.5,nungambakkam,4,20,3.1,Fast charging,2.3,adyar,88,4,type2,45,1.13,3,,,,19:45,2025-02-16,17
+velachery ev hub,chennai,13.03401921,80.20645204,40.0,2.5,25.0,Medium,3.5,perungudi,10,50,4.8,Average experience,1.97,anna nagar,49,6,ccs,21,10.04,3,150.0,200.0,206.01,03:45,2025-04-04,6
+adyar fast charge,chennai,13.03622357,80.20503268,30.0,1.5,,Medium,5.0,,8,40,3.9,Well maintained,1.94,t nagar,24,2,type2,84,5.75,3,90.0,180.0,187.59,04:45,2025-07-09,1
+anna nagar ev point,chennai,12.90868251,80.29028067,,2.5,20.0,Medium,3.5,thoraipakkam,8,40,3.4,Fast charging,0.98,velachery,49,3,ccs,21,10.04,5,150.0,350.0,352.82,22:45,2025-07-16,6
+velachery ev hub,chennai,13.05398894,80.151129,60.0,1.5,30.0,,5.0,,7,35,4.1,Well maintained,2.76,omr,34,2,type2,47,8.16,3,90.0,495.0,496.78,06:30,2025-05-24,4
+velachery ev hub,chennai,12.98478896,80.14704712,60.0,1.5,20.0,High,,ambattur,10,50,4.8,Average experience,1.05,adyar,50,6,ccs,28,6.04,5,90.0,165.0,170.82,12:30,2025-06-25,4
+t nagar ev station,chennai,12.94123723,80.15137677,,,20.0,Medium,3.5,t nagar,3,15,3.8,Fast charging,3.07,anna nagar,64,5,type2,79,1.5,2,,,,14:00,2025-03-26,14
+velachery ev hub,chennai,12.98854339,80.24490337,50.0,2.5,30.0,,4.0,anna nagar,3,15,4.7,Fast charging,2.04,t nagar,54,6,ccs,67,14.48,4,150.0,25.0,29.55,10:45,2025-02-08,22
+guindy ev station,chennai,12.91713165,80.13837346,30.0,2.0,20.0,High,5.0,anna nagar,4,20,3.2,Good service,2.24,velachery,63,7,type2,74,1.23,3,120.0,51.42857142857143,59.01857142857144,03:00,2025-04-10,11
+adyar fast charge,,12.94674242,80.27601582,40.0,2.0,35.0,Low,4.0,,2,10,4.3,Fast charging,1.76,omr,46,4,ccs,22,14.11,2,120.0,360.0,368.94,12:45,2025-02-02,11
+omr charging point,,12.97258885,80.18927047,60.0,2.5,25.0,,,,1,5,3.2,Long waiting time,3.16,adyar,80,7,type2,33,4.39,1,150.0,42.85714285714285,46.47714285714285,06:45,2025-04-11,20
+adyar fast charge,chennai,12.98189557,80.26436129,60.0,1.0,35.0,,5.0,ambattur,3,15,4.3,Good service,1.24,anna nagar,63,2,ccs,48,8.57,5,60.0,360.0,362.55,18:30,2025-01-23,18
+omr charging point,chennai,12.9304832,80.28540019,60.0,1.0,20.0,Medium,,sholinganallur,0,0,4.4,Fast charging,3.37,t nagar,87,3,type2,22,4.14,1,60.0,20.0,28.84,21:30,2025-01-10,21
+anna nagar ev point,,12.9255427,80.25640562,40.0,,35.0,Low,4.0,anna nagar,9,45,4.6,Well maintained,1.46,velachery,68,3,ccs,56,4.47,4,,,,01:15,2025-03-10,11
+adyar fast charge,,13.01076045,80.1793963,40.0,2.5,25.0,High,4.5,ambattur,5,25,3.8,Fast charging,3.48,omr,43,6,type2,28,13.49,4,150.0,325.0,333.31,09:30,2025-04-10,12
+guindy ev station,chennai,12.9417021,80.12327328,40.0,,30.0,Medium,4.0,sholinganallur,4,20,4.1,Average experience,0.84,adyar,63,7,ccs,76,10.49,1,,,,12:15,2025-02-03,21
+guindy ev station,chennai,13.063747,80.10457876,50.0,1.5,30.0,Medium,5.0,adyar,7,35,4.8,Fast charging,0.86,anna nagar,56,3,type2,32,1.07,2,90.0,270.0,279.84,20:15,2025-06-29,1
+velachery ev hub,chennai,13.0724029,80.19741238,,2.5,30.0,High,3.5,tambaram,6,30,4.7,Average experience,3.49,t nagar,76,4,ccs,15,1.35,5,150.0,300.0,307.15,05:15,2025-05-18,10
+guindy ev station,chennai,12.90516238,80.29262302,60.0,2.5,35.0,Low,5.0,,0,0,4.7,Long waiting time,3.13,velachery,42,6,type2,35,8.77,2,150.0,325.0,326.89,11:15,2025-05-27,6
+velachery ev hub,chennai,,,40.0,2.5,30.0,High,4.5,,9,45,4.8,Long waiting time,1.08,omr,30,6,ccs,58,9.49,5,150.0,200.0,206.55,11:15,2025-07-05,3
+adyar fast charge,chennai,13.09897326,80.23900705,30.0,2.0,20.0,High,,perungudi,5,25,4.3,Long waiting time,1.81,adyar,63,4,type2,66,9.56,2,120.0,60.0,66.94,19:00,2025-04-06,18
+t nagar ev station,chennai,13.03832361,80.22663793,30.0,,35.0,,,nungambakkam,1,5,4.7,Long waiting time,0.73,anna nagar,50,5,ccs,17,12.18,3,,,,10:30,2025-01-01,13
+anna nagar ev point,chennai,13.05841873,80.23081516,50.0,2.0,35.0,Medium,,guindy,8,40,3.6,Average experience,1.13,t nagar,63,6,type2,76,10.49,5,120.0,20.0,24.11,22:15,2025-03-10,21
+adyar fast charge,,12.99626883,,,1.5,25.0,,,tambaram,5,25,4.6,Good service,1.92,velachery,63,7,ccs,76,10.49,1,90.0,38.57142857142857,44.51142857142857,06:45,2025-01-04,21
+t nagar ev station,chennai,12.93977126,80.10852664,30.0,2.0,20.0,,4.5,thoraipakkam,6,30,4.4,Fast charging,0.78,omr,36,2,type2,48,5.12,3,120.0,600.0,603.43,00:30,2025-01-16,2
+adyar fast charge,,12.93000973,80.24747142,50.0,1.0,,,,thoraipakkam,4,20,3.5,Long waiting time,3.4,adyar,49,3,ccs,17,12.44,3,60.0,60.0,61.82,00:30,2025-01-24,8
+guindy ev station,chennai,12.92042991,80.28856623,40.0,2.5,,Low,4.0,thoraipakkam,10,50,3.1,Fast charging,3.13,anna nagar,57,4,type2,21,14.62,5,150.0,412.5,417.7,19:15,2025-03-21,20
+,chennai,13.0274403,80.27902355,30.0,1.0,35.0,High,,thoraipakkam,3,15,4.2,Good service,0.72,t nagar,63,4,ccs,42,8.17,4,60.0,195.0,198.12,12:00,2025-01-02,16
+omr charging point,chennai,12.90956616,,50.0,1.0,,High,4.5,anna nagar,10,50,4.2,Good service,1.28,velachery,93,3,type2,24,1.2,5,60.0,40.0,44.49,08:15,2025-05-08,21
+t nagar ev station,chennai,12.95930712,80.25493071,50.0,2.5,30.0,High,4.0,sholinganallur,9,45,4.8,Long waiting time,2.47,omr,38,7,ccs,26,11.45,3,150.0,278.57142857142856,286.2614285714285,02:00,2025-06-09,9
+adyar fast charge,chennai,12.98485938,80.20293152,30.0,1.0,20.0,Medium,4.0,,2,10,4.4,Well maintained,3.23,adyar,52,7,type2,75,12.33,5,60.0,25.714285714285715,34.62428571428572,06:45,2025-03-25,21
+omr charging point,chennai,13.02878085,80.10839024,40.0,1.5,,,5.0,,4,20,4.3,Average experience,1.53,anna nagar,54,2,ccs,61,3.73,3,90.0,630.0,633.39,05:30,2025-06-01,8
+omr charging point,chennai,13.04961464,80.23129572,50.0,1.5,20.0,,4.0,thoraipakkam,3,15,4.8,Average experience,3.17,t nagar,93,3,type2,24,1.2,4,90.0,390.0,394.85,07:45,2025-05-20,21
+t nagar ev station,chennai,13.02258792,80.14813854,,2.5,30.0,Medium,3.5,nungambakkam,1,5,4.1,Average experience,2.68,velachery,26,3,ccs,14,12.34,3,150.0,700.0,709.93,08:00,2025-06-27,2
+adyar fast charge,chennai,13.06930287,80.1504482,,,35.0,,4.5,ambattur,5,25,3.4,Long waiting time,3.31,omr,68,2,type2,55,8.26,1,,,,04:00,2025-06-12,22
+guindy ev station,chennai,13.04558944,80.2370596,60.0,2.0,25.0,High,4.5,t nagar,5,25,3.3,Fast charging,1.3,adyar,52,6,ccs,21,9.27,5,120.0,100.0,101.46,00:45,2025-05-04,11
+anna nagar ev point,chennai,13.00167211,80.2130044,,2.5,20.0,,,t nagar,7,35,5.0,Long waiting time,3.01,anna nagar,93,7,type2,24,1.2,4,150.0,171.42857142857142,177.85857142857142,18:00,2025-02-02,21
+velachery ev hub,chennai,13.07629016,80.13879077,40.0,1.5,30.0,Low,4.0,nungambakkam,9,45,4.0,Long waiting time,0.84,t nagar,68,7,ccs,55,8.26,3,90.0,51.42857142857143,55.99857142857143,09:45,2025-06-10,22
+adyar fast charge,chennai,12.97107691,80.2108453,40.0,1.5,25.0,Medium,5.0,sholinganallur,2,10,4.9,Good service,2.34,velachery,44,5,type2,18,8.98,4,90.0,72.0,74.36,11:30,2025-07-08,7
+,chennai,13.03567576,80.26839407,50.0,,25.0,,,nungambakkam,6,30,3.6,Well maintained,2.87,omr,68,4,ccs,78,1.52,2,,,,23:45,2025-06-28,14
+anna nagar ev point,chennai,12.97830514,80.23912363,,1.5,35.0,,3.5,anna nagar,2,10,3.9,Fast charging,3.38,adyar,29,6,type2,66,14.0,1,90.0,15.0,16.04,14:30,2025-06-20,10
+adyar fast charge,chennai,13.02846511,80.21599676,60.0,2.5,25.0,Medium,4.0,nungambakkam,3,15,3.6,Long waiting time,2.93,anna nagar,25,3,ccs,84,7.88,2,150.0,650.0,655.75,21:45,2025-04-11,6
+omr charging point,chennai,12.91541166,80.16684766,40.0,,35.0,,4.5,adyar,10,50,4.7,Fast charging,2.75,t nagar,45,7,type2,83,3.42,4,,,,23:00,2025-01-12,2
+adyar fast charge,chennai,12.91772009,80.21964506,50.0,2.0,20.0,,,ambattur,5,25,4.8,Fast charging,0.84,velachery,76,2,ccs,22,4.02,2,120.0,780.0,781.88,08:45,2025-03-08,14
+t nagar ev station,chennai,12.92366724,80.26796046,50.0,1.0,25.0,,,tambaram,9,45,3.5,Average experience,1.0,omr,28,5,type2,26,12.14,5,60.0,168.0,172.58,19:00,2025-03-06,4
+t nagar ev station,chennai,13.04005039,80.21729582,30.0,2.0,,High,,porur,5,25,3.9,Well maintained,0.94,adyar,30,4,ccs,58,9.49,2,120.0,210.0,217.11,16:45,2025-06-10,3
+omr charging point,chennai,13.06838671,80.26052866,40.0,,35.0,Medium,4.0,sholinganallur,1,5,4.3,Well maintained,2.61,anna nagar,76,3,type2,72,5.52,4,,,,16:45,2025-06-17,20
+,chennai,13.05604261,,30.0,2.5,35.0,,3.5,nungambakkam,2,10,3.4,Average experience,2.94,t nagar,67,5,ccs,67,9.86,4,150.0,360.0,361.87,19:15,2025-03-15,20
+anna nagar ev point,chennai,12.91141094,80.15234114,50.0,2.5,25.0,,4.0,guindy,7,35,4.8,Well maintained,3.11,velachery,25,5,type2,53,12.7,5,150.0,60.0,67.74,11:00,2025-02-12,6
+t nagar ev station,,12.90672272,80.28128749,30.0,,35.0,Medium,3.5,t nagar,10,50,4.9,Fast charging,1.88,omr,86,6,ccs,48,2.78,1,,,,06:15,2025-02-13,22
+omr charging point,chennai,,80.29267889,,1.5,25.0,,3.5,adyar,9,45,3.5,Good service,1.52,adyar,54,6,type2,82,2.18,5,90.0,165.0,170.37,01:00,2025-01-29,2
+adyar fast charge,chennai,12.93961953,80.1927865,30.0,,35.0,Low,,,2,10,3.0,Well maintained,1.79,anna nagar,27,6,ccs,67,9.61,1,,,,02:15,2025-05-21,1

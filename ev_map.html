@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0c185cd516500360e2df0b14fc4e27d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b0c185cd516500360e2df0b14fc4e27d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b0c185cd516500360e2df0b14fc4e27d = L.map(
+                "map_b0c185cd516500360e2df0b14fc4e27d",
+                {
+                    center: [13.0827, 80.2707],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4bf648c24d688ef29c8cdeb0226cda9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f4bf648c24d688ef29c8cdeb0226cda9.addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+            var circle_marker_da03e2472715065a8116a9c88d59f22c = L.circleMarker(
+                [12.90265299, 80.21265764],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_8149614e9b4fedf871e1f139ea9a936e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be44f2083fdc7b433f430045b4fcaa64 = $(`<div id="html_be44f2083fdc7b433f430045b4fcaa64" style="width: 100.0%; height: 100.0%;">         Station: omr charging point<br>         Location: adyar<br>         Queue: 1<br>         Energy: 25.0 kWh<br>         Slots: 4<br>         Vehicles: 35         </div>`)[0];
+                popup_8149614e9b4fedf871e1f139ea9a936e.setContent(html_be44f2083fdc7b433f430045b4fcaa64);
+            
+        
+
+        circle_marker_da03e2472715065a8116a9c88d59f22c.bindPopup(popup_8149614e9b4fedf871e1f139ea9a936e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf431e59cb9fae13da96c9137b8ddc0e = L.circleMarker(
+                [13.06663898, 80.17821212],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_f1282111a3dc6c4ee416abe527c138a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7a538c67e092603e32f99f084879ae8 = $(`<div id="html_e7a538c67e092603e32f99f084879ae8" style="width: 100.0%; height: 100.0%;">         Station: anna nagar ev point<br>         Location: anna nagar<br>         Queue: 5<br>         Energy: 25.0 kWh<br>         Slots: 2<br>         Vehicles: 12         </div>`)[0];
+                popup_f1282111a3dc6c4ee416abe527c138a2.setContent(html_e7a538c67e092603e32f99f084879ae8);
+            
+        
+
+        circle_marker_cf431e59cb9fae13da96c9137b8ddc0e.bindPopup(popup_f1282111a3dc6c4ee416abe527c138a2)
+        ;
+
+        
+    
+    
+            var circle_marker_257f9b0607297d3ad7a47851f1b62c82 = L.circleMarker(
+                [12.99130691, 80.18330199],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_2a9cc1c5ca09411501874059b5955f7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016a400edddd73e1f969680ba40561a6 = $(`<div id="html_016a400edddd73e1f969680ba40561a6" style="width: 100.0%; height: 100.0%;">         Station: velachery ev hub<br>         Location: velachery<br>         Queue: 0<br>         Energy: 35.0 kWh<br>         Slots: 6<br>         Vehicles: 51         </div>`)[0];
+                popup_2a9cc1c5ca09411501874059b5955f7a.setContent(html_016a400edddd73e1f969680ba40561a6);
+            
+        
+
+        circle_marker_257f9b0607297d3ad7a47851f1b62c82.bindPopup(popup_2a9cc1c5ca09411501874059b5955f7a)
+        ;
+
+        
+    
+    
+            var circle_marker_153b8e84956b709cbc000e50b4ad49fd = L.circleMarker(
+                [13.09308387, 80.27652727],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_1178462dc174de0ef13d37ccec1b82c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7e6eb7a094afdca45ae9c89124cba4b = $(`<div id="html_f7e6eb7a094afdca45ae9c89124cba4b" style="width: 100.0%; height: 100.0%;">         Station: t nagar ev station<br>         Location: adyar<br>         Queue: 0<br>         Energy: 30.0 kWh<br>         Slots: 6<br>         Vehicles: 71         </div>`)[0];
+                popup_1178462dc174de0ef13d37ccec1b82c5.setContent(html_f7e6eb7a094afdca45ae9c89124cba4b);
+            
+        
+
+        circle_marker_153b8e84956b709cbc000e50b4ad49fd.bindPopup(popup_1178462dc174de0ef13d37ccec1b82c5)
+        ;
+
+        
+    
+    
+            var circle_marker_1e2263f99d79a2eea279a8bf996ed2e0 = L.circleMarker(
+                [12.91682799, 80.27971084],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_84dff445958cf3ae6588104cf119265b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7bd920815af7e258d6a9161d77cd20c = $(`<div id="html_f7bd920815af7e258d6a9161d77cd20c" style="width: 100.0%; height: 100.0%;">         Station: anna nagar ev point<br>         Location: anna nagar<br>         Queue: 5<br>         Energy: 20.0 kWh<br>         Slots: 7<br>         Vehicles: 80         </div>`)[0];
+                popup_84dff445958cf3ae6588104cf119265b.setContent(html_f7bd920815af7e258d6a9161d77cd20c);
+            
+        
+
+        circle_marker_1e2263f99d79a2eea279a8bf996ed2e0.bindPopup(popup_84dff445958cf3ae6588104cf119265b)
+        ;
+
+        
+    
+    
+            var circle_marker_4f2b88371a34da0df10c92dba13c241c = L.circleMarker(
+                [12.92732427, 80.210564],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_d496c3b708a6d9f5537c08dda7878251 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc393e730a8002c8dd4d2d0cae76cb9 = $(`<div id="html_efc393e730a8002c8dd4d2d0cae76cb9" style="width: 100.0%; height: 100.0%;">         Station: omr charging point<br>         Location: t nagar<br>         Queue: 6<br>         Energy: 30.0 kWh<br>         Slots: 5<br>         Vehicles: 79         </div>`)[0];
+                popup_d496c3b708a6d9f5537c08dda7878251.setContent(html_efc393e730a8002c8dd4d2d0cae76cb9);
+            
+        
+
+        circle_marker_4f2b88371a34da0df10c92dba13c241c.bindPopup(popup_d496c3b708a6d9f5537c08dda7878251)
+        ;
+
+        
+    
+    
+            var circle_marker_34693bf70168a323b57d3f8fca957b29 = L.circleMarker(
+                [13.0677867, 80.15005027],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_810fb4e3663231cff731e2182147d99f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58ef3700d26d6a489f7f980b0a513dac = $(`<div id="html_58ef3700d26d6a489f7f980b0a513dac" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 10<br>         Energy: 35.0 kWh<br>         Slots: 7<br>         Vehicles: 80         </div>`)[0];
+                popup_810fb4e3663231cff731e2182147d99f.setContent(html_58ef3700d26d6a489f7f980b0a513dac);
+            
+        
+
+        circle_marker_34693bf70168a323b57d3f8fca957b29.bindPopup(popup_810fb4e3663231cff731e2182147d99f)
+        ;
+
+        
+    
+    
+            var circle_marker_ac10fd6afc1e4b4ed97b92688c97132d = L.circleMarker(
+                [13.02984206, 80.21667375],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_dd43885c46abb6b9c20cc27bd9046762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7096fa7a9658cda524888c9fab7d8dcc = $(`<div id="html_7096fa7a9658cda524888c9fab7d8dcc" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: anna nagar<br>         Queue: 5<br>         Energy: 20.0 kWh<br>         Slots: 6<br>         Vehicles: 18         </div>`)[0];
+                popup_dd43885c46abb6b9c20cc27bd9046762.setContent(html_7096fa7a9658cda524888c9fab7d8dcc);
+            
+        
+
+        circle_marker_ac10fd6afc1e4b4ed97b92688c97132d.bindPopup(popup_dd43885c46abb6b9c20cc27bd9046762)
+        ;
+
+        
+    
+    
+            var circle_marker_d0af7c9b413479e9d40339bded18f813 = L.circleMarker(
+                [12.93762423, 80.17067045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_f04ff7e48dc2911f1d8bf4e8f62e8241 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_146a3dc6caedb2ab681184e850ff9f3f = $(`<div id="html_146a3dc6caedb2ab681184e850ff9f3f" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 6<br>         Energy: 35.0 kWh<br>         Slots: 2<br>         Vehicles: 76         </div>`)[0];
+                popup_f04ff7e48dc2911f1d8bf4e8f62e8241.setContent(html_146a3dc6caedb2ab681184e850ff9f3f);
+            
+        
+
+        circle_marker_d0af7c9b413479e9d40339bded18f813.bindPopup(popup_f04ff7e48dc2911f1d8bf4e8f62e8241)
+        ;
+
+        
+    
+    
+            var circle_marker_5f26ecc5d1365bb7c53851169dcf16af = L.circleMarker(
+                [13.07564413, 80.10937929],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_1d45c21c2dc3578e8cd1a7e6a36ae413 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_225ac6593074cc87a559c98183e32803 = $(`<div id="html_225ac6593074cc87a559c98183e32803" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 0<br>         Energy: 25.0 kWh<br>         Slots: 5<br>         Vehicles: 67         </div>`)[0];
+                popup_1d45c21c2dc3578e8cd1a7e6a36ae413.setContent(html_225ac6593074cc87a559c98183e32803);
+            
+        
+
+        circle_marker_5f26ecc5d1365bb7c53851169dcf16af.bindPopup(popup_1d45c21c2dc3578e8cd1a7e6a36ae413)
+        ;
+
+        
+    
+    
+            var circle_marker_c0e0dd538f9fbfd9cc892664d1f72da9 = L.circleMarker(
+                [13.02732886, 80.11820042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_b7ac09799b60e5d6197f4a7deedb836a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95a2e20114e3159707b9f8577fd2b6b1 = $(`<div id="html_95a2e20114e3159707b9f8577fd2b6b1" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: anna nagar<br>         Queue: 10<br>         Energy: 20.0 kWh<br>         Slots: 6<br>         Vehicles: 24         </div>`)[0];
+                popup_b7ac09799b60e5d6197f4a7deedb836a.setContent(html_95a2e20114e3159707b9f8577fd2b6b1);
+            
+        
+
+        circle_marker_c0e0dd538f9fbfd9cc892664d1f72da9.bindPopup(popup_b7ac09799b60e5d6197f4a7deedb836a)
+        ;
+
+        
+    
+    
+            var circle_marker_e449c5d041a74b22172c4dc6de1f379f = L.circleMarker(
+                [12.97285397, 80.23807897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_5ce81abc7bd1a5a9cb04ed63bf268f3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc4d8b025b4c98ba5c37c0fa1783c885 = $(`<div id="html_fc4d8b025b4c98ba5c37c0fa1783c885" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: adyar<br>         Queue: 6<br>         Energy: 20.0 kWh<br>         Slots: 7<br>         Vehicles: 13         </div>`)[0];
+                popup_5ce81abc7bd1a5a9cb04ed63bf268f3a.setContent(html_fc4d8b025b4c98ba5c37c0fa1783c885);
+            
+        
+
+        circle_marker_e449c5d041a74b22172c4dc6de1f379f.bindPopup(popup_5ce81abc7bd1a5a9cb04ed63bf268f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_8f4d7bec514258213b847c9666e07bb3 = L.circleMarker(
+                [13.05783425, 80.11738406],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_50a2b5ab70a1d8b1c707f6489a6d4e7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8502c5bd361390a296b7b0a184fa0b6a = $(`<div id="html_8502c5bd361390a296b7b0a184fa0b6a" style="width: 100.0%; height: 100.0%;">         Station: t nagar ev station<br>         Location: omr<br>         Queue: 8<br>         Energy: 35.0 kWh<br>         Slots: 3<br>         Vehicles: 79         </div>`)[0];
+                popup_50a2b5ab70a1d8b1c707f6489a6d4e7b.setContent(html_8502c5bd361390a296b7b0a184fa0b6a);
+            
+        
+
+        circle_marker_8f4d7bec514258213b847c9666e07bb3.bindPopup(popup_50a2b5ab70a1d8b1c707f6489a6d4e7b)
+        ;
+
+        
+    
+    
+            var circle_marker_daf28042f7f1a9d1052b7079d32caefa = L.circleMarker(
+                [12.91036471, 80.12688294],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_c487fa89b1d97d866c1d4a1bff9d811e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f8cd204a29dee8a0dd80f58b91b99c0 = $(`<div id="html_0f8cd204a29dee8a0dd80f58b91b99c0" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 3<br>         Energy: 25.0 kWh<br>         Slots: 2<br>         Vehicles: 66         </div>`)[0];
+                popup_c487fa89b1d97d866c1d4a1bff9d811e.setContent(html_0f8cd204a29dee8a0dd80f58b91b99c0);
+            
+        
+
+        circle_marker_daf28042f7f1a9d1052b7079d32caefa.bindPopup(popup_c487fa89b1d97d866c1d4a1bff9d811e)
+        ;
+
+        
+    
+    
+            var circle_marker_c93d7ba0bc7c8687a21199f97226e285 = L.circleMarker(
+                [12.92998349, 80.24445051],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_b930d87de6786262ba9e347066379775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8e63702e9a33d106b45a5ed5d7808ac = $(`<div id="html_e8e63702e9a33d106b45a5ed5d7808ac" style="width: 100.0%; height: 100.0%;">         Station: adyar fast charge<br>         Location: anna nagar<br>         Queue: 4<br>         Energy: 30.0 kWh<br>         Slots: 4<br>         Vehicles: 50         </div>`)[0];
+                popup_b930d87de6786262ba9e347066379775.setContent(html_e8e63702e9a33d106b45a5ed5d7808ac);
+            
+        
+
+        circle_marker_c93d7ba0bc7c8687a21199f97226e285.bindPopup(popup_b930d87de6786262ba9e347066379775)
+        ;
+
+        
+    
+    
+            var circle_marker_14eda3ae3d9102b19496ccdbc5951582 = L.circleMarker(
+                [13.07270363, 80.19314002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_fc9ea0483c99bcbd1edc46af3e7240c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baef3927a874c6010113bcdc80b8bbb2 = $(`<div id="html_baef3927a874c6010113bcdc80b8bbb2" style="width: 100.0%; height: 100.0%;">         Station: adyar fast charge<br>         Location: anna nagar<br>         Queue: 8<br>         Energy: 30.0 kWh<br>         Slots: 5<br>         Vehicles: 85         </div>`)[0];
+                popup_fc9ea0483c99bcbd1edc46af3e7240c8.setContent(html_baef3927a874c6010113bcdc80b8bbb2);
+            
+        
+
+        circle_marker_14eda3ae3d9102b19496ccdbc5951582.bindPopup(popup_fc9ea0483c99bcbd1edc46af3e7240c8)
+        ;
+
+        
+    
+    
+            var circle_marker_728a45f58b914dede34234e8d5ddae53 = L.circleMarker(
+                [12.94102793, 80.10730993],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_ee768b8afa76a812489026afbd625863 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0065ef679e762f15dc06837a95bf230 = $(`<div id="html_f0065ef679e762f15dc06837a95bf230" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 0<br>         Energy: 20.0 kWh<br>         Slots: 2<br>         Vehicles: 28         </div>`)[0];
+                popup_ee768b8afa76a812489026afbd625863.setContent(html_f0065ef679e762f15dc06837a95bf230);
+            
+        
+
+        circle_marker_728a45f58b914dede34234e8d5ddae53.bindPopup(popup_ee768b8afa76a812489026afbd625863)
+        ;
+
+        
+    
+    
+            var circle_marker_cb221d4d240ce5823a2cceb762e60c0a = L.circleMarker(
+                [13.05595175, 80.21315532],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_5cbe69a63207bccd793fe842c487cc61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06857442cb1652beb388f21ed10f3c47 = $(`<div id="html_06857442cb1652beb388f21ed10f3c47" style="width: 100.0%; height: 100.0%;">         Station: velachery ev hub<br>         Location: adyar<br>         Queue: 9<br>         Energy: 25.0 kWh<br>         Slots: 5<br>         Vehicles: 45         </div>`)[0];
+                popup_5cbe69a63207bccd793fe842c487cc61.setContent(html_06857442cb1652beb388f21ed10f3c47);
+            
+        
+
+        circle_marker_cb221d4d240ce5823a2cceb762e60c0a.bindPopup(popup_5cbe69a63207bccd793fe842c487cc61)
+        ;
+
+        
+    
+    
+            var circle_marker_66e92a632edd4478327be45ac803a0eb = L.circleMarker(
+                [13.02933298, 80.11031916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_3dda9c740eea313ec489d1855d2ed588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b363e2513aceb732667f9aca655d2c3 = $(`<div id="html_2b363e2513aceb732667f9aca655d2c3" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: omr<br>         Queue: 9<br>         Energy: 20.0 kWh<br>         Slots: 6<br>         Vehicles: 40         </div>`)[0];
+                popup_3dda9c740eea313ec489d1855d2ed588.setContent(html_2b363e2513aceb732667f9aca655d2c3);
+            
+        
+
+        circle_marker_66e92a632edd4478327be45ac803a0eb.bindPopup(popup_3dda9c740eea313ec489d1855d2ed588)
+        ;
+
+        
+    
+    
+            var circle_marker_63cfda0165e2c16530cff3e19e17ee2b = L.circleMarker(
+                [12.98038618, 80.22550109],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_d0c0dd19a24b911c8e6bfeaab0705f64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f700f69cb428b59512634d6162eac6db = $(`<div id="html_f700f69cb428b59512634d6162eac6db" style="width: 100.0%; height: 100.0%;">         Station: omr charging point<br>         Location: omr<br>         Queue: 5<br>         Energy: 25.0 kWh<br>         Slots: 5<br>         Vehicles: 23         </div>`)[0];
+                popup_d0c0dd19a24b911c8e6bfeaab0705f64.setContent(html_f700f69cb428b59512634d6162eac6db);
+            
+        
+
+        circle_marker_63cfda0165e2c16530cff3e19e17ee2b.bindPopup(popup_d0c0dd19a24b911c8e6bfeaab0705f64)
+        ;
+
+        
+    
+    
+            var circle_marker_f86e90e4d914ca17d23c52bdd1b3a25b = L.circleMarker(
+                [13.02154736, 80.14613396],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_736c34c8199113a2369d9b4fc488b959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55ac62f5f0b95610c97050ad33b19352 = $(`<div id="html_55ac62f5f0b95610c97050ad33b19352" style="width: 100.0%; height: 100.0%;">         Station: anna nagar ev point<br>         Location: t nagar<br>         Queue: 8<br>         Energy: 25.0 kWh<br>         Slots: 2<br>         Vehicles: 95         </div>`)[0];
+                popup_736c34c8199113a2369d9b4fc488b959.setContent(html_55ac62f5f0b95610c97050ad33b19352);
+            
+        
+
+        circle_marker_f86e90e4d914ca17d23c52bdd1b3a25b.bindPopup(popup_736c34c8199113a2369d9b4fc488b959)
+        ;
+
+        
+    
+    
+            var circle_marker_a18e56622af13661b91058f93bca7f93 = L.circleMarker(
+                [12.92601725, 80.10491738],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_f6b893def3568501ba0b2d9ef0dcb649 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c922cd5e7be636cf8249d8966e59b56 = $(`<div id="html_7c922cd5e7be636cf8249d8966e59b56" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: velachery<br>         Queue: 8<br>         Energy: 30.0 kWh<br>         Slots: 5<br>         Vehicles: 71         </div>`)[0];
+                popup_f6b893def3568501ba0b2d9ef0dcb649.setContent(html_7c922cd5e7be636cf8249d8966e59b56);
+            
+        
+
+        circle_marker_a18e56622af13661b91058f93bca7f93.bindPopup(popup_f6b893def3568501ba0b2d9ef0dcb649)
+        ;
+
+        
+    
+    
+            var circle_marker_10b027e2e4bfdb9bb7fd232bdd607a28 = L.circleMarker(
+                [12.9371051, 80.25531937],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_a99233e774e91035e523a7128b9405d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab7b72731e90fd3c0d2c60b6bee54067 = $(`<div id="html_ab7b72731e90fd3c0d2c60b6bee54067" style="width: 100.0%; height: 100.0%;">         Station: velachery ev hub<br>         Location: t nagar<br>         Queue: 1<br>         Energy: 35.0 kWh<br>         Slots: 6<br>         Vehicles: 22         </div>`)[0];
+                popup_a99233e774e91035e523a7128b9405d4.setContent(html_ab7b72731e90fd3c0d2c60b6bee54067);
+            
+        
+
+        circle_marker_10b027e2e4bfdb9bb7fd232bdd607a28.bindPopup(popup_a99233e774e91035e523a7128b9405d4)
+        ;
+
+        
+    
+    
+            var circle_marker_b382c130b45d5c17678c438042a7abfa = L.circleMarker(
+                [13.05141185, 80.28156373],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_672d87db8cd6fd8439f4733ad5fedd5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b52abcdc9de4e1ad5a7e5e0f34b75b9b = $(`<div id="html_b52abcdc9de4e1ad5a7e5e0f34b75b9b" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: adyar<br>         Queue: 10<br>         Energy: 20.0 kWh<br>         Slots: 4<br>         Vehicles: 28         </div>`)[0];
+                popup_672d87db8cd6fd8439f4733ad5fedd5f.setContent(html_b52abcdc9de4e1ad5a7e5e0f34b75b9b);
+            
+        
+
+        circle_marker_b382c130b45d5c17678c438042a7abfa.bindPopup(popup_672d87db8cd6fd8439f4733ad5fedd5f)
+        ;
+
+        
+    
+    
+            var circle_marker_aec1afd1c749026de11bea19b26c78bb = L.circleMarker(
+                [12.91602297, 80.20951848],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_675d159957a387e0194b92fbc392a5a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd21f0730e03f002ec89f00f489a08dc = $(`<div id="html_dd21f0730e03f002ec89f00f489a08dc" style="width: 100.0%; height: 100.0%;">         Station: anna nagar ev point<br>         Location: omr<br>         Queue: 7<br>         Energy: 30.0 kWh<br>         Slots: 5<br>         Vehicles: 30         </div>`)[0];
+                popup_675d159957a387e0194b92fbc392a5a0.setContent(html_dd21f0730e03f002ec89f00f489a08dc);
+            
+        
+
+        circle_marker_aec1afd1c749026de11bea19b26c78bb.bindPopup(popup_675d159957a387e0194b92fbc392a5a0)
+        ;
+
+        
+    
+    
+            var circle_marker_60e16e88a6b885431a5dbf6c9b62e70d = L.circleMarker(
+                [12.90599472, 80.24093615],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_8b9ededf8f2f7d1deffa7e748d36632c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a841f690a574ff947912c582747276c = $(`<div id="html_3a841f690a574ff947912c582747276c" style="width: 100.0%; height: 100.0%;">         Station: omr charging point<br>         Location: t nagar<br>         Queue: 4<br>         Energy: 25.0 kWh<br>         Slots: 4<br>         Vehicles: 29         </div>`)[0];
+                popup_8b9ededf8f2f7d1deffa7e748d36632c.setContent(html_3a841f690a574ff947912c582747276c);
+            
+        
+
+        circle_marker_60e16e88a6b885431a5dbf6c9b62e70d.bindPopup(popup_8b9ededf8f2f7d1deffa7e748d36632c)
+        ;
+
+        
+    
+    
+            var circle_marker_c73df5f31e1a9ebc552b9592e0516114 = L.circleMarker(
+                [13.03852519, 80.28892284],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_0efc1faa07137a6c52d4ce8ee8c7306d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7fe01abffc99fe9593ae28e9d0b5446 = $(`<div id="html_b7fe01abffc99fe9593ae28e9d0b5446" style="width: 100.0%; height: 100.0%;">         Station: adyar fast charge<br>         Location: velachery<br>         Queue: 3<br>         Energy: 25.0 kWh<br>         Slots: 2<br>         Vehicles: 52         </div>`)[0];
+                popup_0efc1faa07137a6c52d4ce8ee8c7306d.setContent(html_b7fe01abffc99fe9593ae28e9d0b5446);
+            
+        
+
+        circle_marker_c73df5f31e1a9ebc552b9592e0516114.bindPopup(popup_0efc1faa07137a6c52d4ce8ee8c7306d)
+        ;
+
+        
+    
+    
+            var circle_marker_2f47dc064c09aaddbac2f262cf78e0dd = L.circleMarker(
+                [13.03401921, 80.20645204],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_f0d70b224a9c369c509560e9ab4a8d1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b206ab15bb28ad27b0fdf1dbde5dc3 = $(`<div id="html_49b206ab15bb28ad27b0fdf1dbde5dc3" style="width: 100.0%; height: 100.0%;">         Station: velachery ev hub<br>         Location: anna nagar<br>         Queue: 10<br>         Energy: 25.0 kWh<br>         Slots: 6<br>         Vehicles: 49         </div>`)[0];
+                popup_f0d70b224a9c369c509560e9ab4a8d1f.setContent(html_49b206ab15bb28ad27b0fdf1dbde5dc3);
+            
+        
+
+        circle_marker_2f47dc064c09aaddbac2f262cf78e0dd.bindPopup(popup_f0d70b224a9c369c509560e9ab4a8d1f)
+        ;
+
+        
+    
+    
+            var circle_marker_572340024f1f7c7d8d6991e079facf90 = L.circleMarker(
+                [12.91713165, 80.13837346],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_7b8a52a3b20ec091fdd94248aab5f421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08a2296130495c7d596b4df68c68d3b9 = $(`<div id="html_08a2296130495c7d596b4df68c68d3b9" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: velachery<br>         Queue: 4<br>         Energy: 20.0 kWh<br>         Slots: 7<br>         Vehicles: 63         </div>`)[0];
+                popup_7b8a52a3b20ec091fdd94248aab5f421.setContent(html_08a2296130495c7d596b4df68c68d3b9);
+            
+        
+
+        circle_marker_572340024f1f7c7d8d6991e079facf90.bindPopup(popup_7b8a52a3b20ec091fdd94248aab5f421)
+        ;
+
+        
+    
+    
+            var circle_marker_7b5f89335a81729b71af46ebeca5139e = L.circleMarker(
+                [13.063747, 80.10457876],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_4c9475e68677de432d9654262f2b7171 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0d4a4af3b6acbffe45c2ada3126b50b = $(`<div id="html_e0d4a4af3b6acbffe45c2ada3126b50b" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: anna nagar<br>         Queue: 7<br>         Energy: 30.0 kWh<br>         Slots: 3<br>         Vehicles: 56         </div>`)[0];
+                popup_4c9475e68677de432d9654262f2b7171.setContent(html_e0d4a4af3b6acbffe45c2ada3126b50b);
+            
+        
+
+        circle_marker_7b5f89335a81729b71af46ebeca5139e.bindPopup(popup_4c9475e68677de432d9654262f2b7171)
+        ;
+
+        
+    
+    
+            var circle_marker_fbace8b488534b0be23ada6ab74e35f3 = L.circleMarker(
+                [12.95930712, 80.25493071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_c1b1fbdb3d565fe0dbdff0fc402bbb5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12301b7f48e53f235250f12260660d17 = $(`<div id="html_12301b7f48e53f235250f12260660d17" style="width: 100.0%; height: 100.0%;">         Station: t nagar ev station<br>         Location: omr<br>         Queue: 9<br>         Energy: 30.0 kWh<br>         Slots: 7<br>         Vehicles: 38         </div>`)[0];
+                popup_c1b1fbdb3d565fe0dbdff0fc402bbb5d.setContent(html_12301b7f48e53f235250f12260660d17);
+            
+        
+
+        circle_marker_fbace8b488534b0be23ada6ab74e35f3.bindPopup(popup_c1b1fbdb3d565fe0dbdff0fc402bbb5d)
+        ;
+
+        
+    
+    
+            var circle_marker_782629073a41b4646bc632ca9216187c = L.circleMarker(
+                [13.04558944, 80.2370596],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_579ec0e7b4b1f71687a607818b6a6b80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fb1ab15a5f49f5c0d68d66a1383fab4 = $(`<div id="html_4fb1ab15a5f49f5c0d68d66a1383fab4" style="width: 100.0%; height: 100.0%;">         Station: guindy ev station<br>         Location: adyar<br>         Queue: 5<br>         Energy: 25.0 kWh<br>         Slots: 6<br>         Vehicles: 52         </div>`)[0];
+                popup_579ec0e7b4b1f71687a607818b6a6b80.setContent(html_4fb1ab15a5f49f5c0d68d66a1383fab4);
+            
+        
+
+        circle_marker_782629073a41b4646bc632ca9216187c.bindPopup(popup_579ec0e7b4b1f71687a607818b6a6b80)
+        ;
+
+        
+    
+    
+            var circle_marker_34870b661ddc21387ce040d96e2d4c42 = L.circleMarker(
+                [13.07629016, 80.13879077],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_4bb7781e0ce5f63e52694acf3ea9fb00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2c0891689089049c6f49b781f6f9b43 = $(`<div id="html_b2c0891689089049c6f49b781f6f9b43" style="width: 100.0%; height: 100.0%;">         Station: velachery ev hub<br>         Location: t nagar<br>         Queue: 9<br>         Energy: 30.0 kWh<br>         Slots: 7<br>         Vehicles: 68         </div>`)[0];
+                popup_4bb7781e0ce5f63e52694acf3ea9fb00.setContent(html_b2c0891689089049c6f49b781f6f9b43);
+            
+        
+
+        circle_marker_34870b661ddc21387ce040d96e2d4c42.bindPopup(popup_4bb7781e0ce5f63e52694acf3ea9fb00)
+        ;
+
+        
+    
+    
+            var circle_marker_129f213368de5cf65f45ec9193a69f49 = L.circleMarker(
+                [12.97107691, 80.2108453],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_e55591a1e7c5d88f8f89e84192a2fbaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a266bb43b78e426bb7adf1aab2a7be38 = $(`<div id="html_a266bb43b78e426bb7adf1aab2a7be38" style="width: 100.0%; height: 100.0%;">         Station: adyar fast charge<br>         Location: velachery<br>         Queue: 2<br>         Energy: 25.0 kWh<br>         Slots: 5<br>         Vehicles: 44         </div>`)[0];
+                popup_e55591a1e7c5d88f8f89e84192a2fbaa.setContent(html_a266bb43b78e426bb7adf1aab2a7be38);
+            
+        
+
+        circle_marker_129f213368de5cf65f45ec9193a69f49.bindPopup(popup_e55591a1e7c5d88f8f89e84192a2fbaa)
+        ;
+
+        
+    
+    
+            var circle_marker_9fb97a56350b7c190a1ad853a7a98a6d = L.circleMarker(
+                [13.02846511, 80.21599676],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_b0c185cd516500360e2df0b14fc4e27d);
+        
+    
+        var popup_1d9945f5d9b69c91609be7f91bf1b561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7dbff59d6f2c6c10d96514a9edef3cc = $(`<div id="html_d7dbff59d6f2c6c10d96514a9edef3cc" style="width: 100.0%; height: 100.0%;">         Station: adyar fast charge<br>         Location: anna nagar<br>         Queue: 3<br>         Energy: 25.0 kWh<br>         Slots: 3<br>         Vehicles: 25         </div>`)[0];
+                popup_1d9945f5d9b69c91609be7f91bf1b561.setContent(html_d7dbff59d6f2c6c10d96514a9edef3cc);
+            
+        
+
+        circle_marker_9fb97a56350b7c190a1ad853a7a98a6d.bindPopup(popup_1d9945f5d9b69c91609be7f91bf1b561)
+        ;
+
+        
+    
+</script>
+</html>
